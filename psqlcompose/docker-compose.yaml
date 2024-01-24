@@ -1,0 +1,10 @@
+version: "4.26"
+
+services:
+
+  postgres-compose:
+    image: postgres
+    environment:
+      POSTGRES_PASSWORD: "1234"
+    ports: 
+      - "5432:5432"
